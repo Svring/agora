@@ -1,0 +1,16 @@
+# Placeholder for location card data (e.g., YAML or JSON)
+# Example: old_tavern.yaml
+# ---
+# card_id: loc_old_tavern_001
+# card_type: location
+# name: "The Rusty Mug Tavern"
+# description: "A dimly lit, smoke-filled tavern, common haunt for adventurers and rogues."
+# location_type: Urban
+# notable_features:
+#   - "Mysterious hooded figure in the corner"
+#   - "Barkeep with a knowing glance"
+#   - "Bounty board with local quests"
+# connections: # Links to other location cards or story elements
+#   - loc_town_square_001
+# events_possible_refs:
+#   - event_bar_brawl_001 

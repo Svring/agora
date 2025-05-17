@@ -1,0 +1,44 @@
+card_type: PLAYER_ARCHETYPE
+name: Sorceress
+description: A spellcaster whose magic is an inherent part of their being, derived from a mystical bloodline, a divine blessing, a fey pact, or some other profound, often inexplicable, gift. Sorceresses wield raw arcane power with intuition and natural talent, sometimes struggling to control its full extent.
+tags:
+  - arcane_caster
+  - innate_magic
+  - spellcaster
+  - gifted
+  - bloodline_magic
+  - intuitive
+version: "1.0.0"
+metadata:
+  core_identity: conduit_of_raw_magic
+  magic_source_examples: # Player or DM might choose or roll
+    - draconic_ancestor
+    - celestial_Touched
+    - feywild_heritage
+    - elemental_manifestation
+    - wild_magic_event
+    - shadow_fell_taint
+  key_abilities:
+    - potent_spellcasting # Raw power, perhaps fewer spells known than a wizard but cast with greater force
+    - metamagic_aptitude # Ability to shape and alter spells in unique ways
+    - intuitive_magic_use # Less reliant on tomes and study for core abilities
+    - elemental_attunement # (If applicable to source)
+  potential_strengths:
+    - high_burst_damage_or_effect
+    - natural_charisma_or_presence # Often associated with sorcerous power
+    - adaptability_in_spellcasting_via_metamagic
+  potential_weaknesses:
+    - limited_spell_selection # Knows fewer distinct spells than a wizard
+    - volatile_or_uncontrolled_magic # Especially for wild magic sources
+    - less_understanding_of_arcane_theory
+    - reliance_on_innate_power_over_versatile_rituals
+  gameplay_focus:
+    - impactful_spellcasting
+    - unique_spell_modification
+    - potentially_unpredictable_outcomes
+    - social_легкость # (ease) due to inherent power/aura
+  visual_cues_examples: # Dependent on magic source
+    - glowing_eyes_when_casting
+    - birthmarks_resembling_ancestral_source (e.g., scales, feathers)
+    - aura_of_unseen_power
+    - unusual_hair_or_eye_color

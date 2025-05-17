@@ -1,0 +1,39 @@
+card_type: NPC
+name: Bhaal (Lord of Murder)
+description: The god of violence and ritualistic killing, Bhaal is a savage and bloodthirsty deity who exists to hunt and kill the living. He is known for his mortal children, the Bhaalspawn, and his devout worshipers, the Bhaalists.
+tags:
+  - deity
+  - evil_god
+  - murder
+  - violence
+  - death_domain
+  - forgotten_realms_inspired
+version: "1.0.0"
+metadata:
+  title: Lord of Murder
+  alignment: Neutral Evil (or Chaotic Evil, depending on interpretation)
+  domains_of_influence:
+    - murder (especially ritualistic)
+    - violence
+    - assassination
+    - death
+  avatars:
+    - name: The Slayer
+      description: A horrifying, corpse-like figure with ichorous wounds, feral jaws, and deathly pale skin.
+    - name: The Ravager
+      description: A hulking, monstrous beast with a twisted grimace, a fulsome beard and mane, enormous horns, and flaming eyes.
+    - name: Kazgoroth
+      description: A terrifying, shape-shifting monstrosity capable of taking many forms.
+  worshippers_known_as: Bhaalists
+  progeny: Bhaalspawn (mortal children possessing a fragment of his divine essence)
+  goals:
+    - To perpetuate murder and violence across the realms.
+    - To reclaim power through the acts of his followers.
+    - To see all life extinguished in his name.
+  common_symbols:
+    - A skull surrounded by a counter-clockwise orbit of teardrops.
+    - Dagger dripping blood.
+  sacred_acts_for_followers:
+    - Ritualistic murder.
+    - Assassination in Bhaal's name.
+    - Spreading fear and the certainty of violent death.

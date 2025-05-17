@@ -1,0 +1,30 @@
+card_type: STORY_BACKGROUND
+name: Faerûn
+description: Land of intrigue, adventure, magic and mysticism, Faerûn is a primeval wilderness populated by beasts, monsters, fey creatures and extraplanar beings, where city-states, nations and tribes of myriad races with a millennial history thrive in trade and vie in war, led by warlords, sorcerers, gods and demons, where heroes battle ancient evils and horrors, kings and queens are crowned and deposed, mortals ascend to godhood and cults form to worship forgotten divinities and reawakening powers.
+tags:
+  - high_fantasy
+  - magic_rich
+  - adventure
+  - intrigue
+  - ancient_history
+  - diverse_races
+  - gods_and_demons
+  - epic_conflict
+  - forgotten_realms_inspired
+metadata:
+  key_themes:
+    - struggle_for_power
+    - clash_of_good_and_evil
+    - exploration_of_the_unknown
+    - rise_and_fall_of_civilizations
+    - divine_intervention
+  prevalent_magic_types:
+    - arcane
+    - divine
+    - primordial
+  common_conflicts:
+    - wars_between_nations
+    - incursions_from_other_planes
+    - resurgence_of_ancient_evils
+    - political_scheming_in_city_states
+  world_scale: continental_to_planar

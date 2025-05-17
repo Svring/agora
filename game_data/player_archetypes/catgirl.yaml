@@ -1,0 +1,24 @@
+card_type: PLAYER_ARCHETYPE
+name: Catgirl
+description: A playful and agile individual possessing feline grace, heightened senses, and a curious nature. Can be fiercely loyal or capriciously mischievous.
+tags:
+  - agile
+  - perceptive
+  - stealthy
+  - curious
+  - feline
+  - playful
+metadata:
+  innate_abilities:
+    - enhanced_hearing
+    - night_vision
+    - feline_reflexes
+  common_traits:
+    - independence
+    - curiosity_gets_the_better_of_them
+    - surprising_strength
+  potential_roles:
+    - scout
+    - rogue
+    - nimble_fighter
+    - urban_explorer

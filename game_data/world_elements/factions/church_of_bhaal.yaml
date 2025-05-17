@@ -1,0 +1,39 @@
+card_type: FACTION
+name: Church of Bhaal
+description: A cabal of evil priests and assassins who worship Bhaal, the Lord of Murder. They meticulously research targets, execute assassinations, hunt bounties, and commit holy ritual murder, viewing murder as both a pleasure and a means of strengthening their dark master.
+tags:
+  - death_cult
+  - assassins_guild
+  - evil_religious_order
+  - secretive
+  - ritualistic
+  - murder_cult
+  - bhaalists
+version: "1.0.0"
+metadata:
+  deity_worshipped: Bhaal (Lord of Murder)
+  primary_activities:
+    - assassination
+    - bounty_hunting
+    - ritual_murder
+    - intelligence_gathering_for_kills
+  modus_operandi:
+    - Meticulous planning and research of targets.
+    - Ensuring victims know Bhaal is the cause of their demise.
+    - Operating from hidden temples, often subterranean and within cities.
+  member_obligations:
+    - Regular murder (at least once every tenday, during the darkest time of night).
+    - Devotion to Bhaal's tenets of violence and death.
+  hierarchy_examples: # Can be expanded based on lore
+    - High Priests / Doomslayers
+    - Deathstalkers (elite assassins)
+    - Initiates / Acolytes of Murder
+  goals:
+    - To spread Bhaal's influence through acts of murder.
+    - To empower Bhaal.
+    - To eliminate enemies of Bhaal or those marked for death.
+    - To acquire power and resources for the cult.
+  common_locations:
+    - Hidden temples beneath cities
+    - Secluded shrines in dark places
+    - Assassin dens

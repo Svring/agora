@@ -1,0 +1,13 @@
+# Placeholder for item card data (e.g., YAML or JSON)
+# Example: healing_potion.yaml
+# ---
+# card_id: item_healing_potion_001
+# card_type: item
+# name: "Healing Potion"
+# description: "A shimmering red liquid that restores vitality."
+# item_type: Potion
+# effects:
+#   - type: HEAL
+#     amount: "2d4+2"
+# cost: 50
+# rarity: common 

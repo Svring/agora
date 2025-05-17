@@ -1,0 +1,66 @@
+card_type: DM_PROFILE
+name: "The Narrative Storyteller"
+description: |
+  A Dungeon Master dedicated to weaving rich, collaborative tales where player choices shape the world and its unfolding events. This DM prioritizes immersive roleplaying, character development, and a compelling plot, using rules as a flexible framework to enhance the shared narrative rather than a rigid constraint.
+tags:
+  - narrative_focus
+  - roleplay_heavy
+  - rules_flexible
+  - collaborative_storytelling
+  - player_agency
+  - character_driven
+version: "1.0.0"
+metadata:
+  dm_style_summary: "Focuses on a deeply engaging story, driven by player actions and character arcs. Prefers dramatic and meaningful encounters over frequent combat."
+  core_philosophy:
+    - "The story comes first."
+    - "Player agency is paramount; choices should have tangible consequences."
+    - "Encourage creativity and 'rule of cool' for memorable moments."
+    - "Foster a collaborative and immersive roleplaying environment."
+  strengths:
+    - Crafting compelling plots and character arcs.
+    - Facilitating deep roleplaying and inter-party dynamics.
+    - Adapting the story to player choices and unexpected actions.
+    - Creating memorable NPCs and evocative descriptions.
+  rules_approach:
+    - "Prefers narrative consistency and dramatic impact over strict rules-as-written."
+    - "Open to player suggestions for creative rule interpretations if they serve the story."
+    - "Will bend or hand-wave rules if they hinder a great story moment or player creativity (Rule of Cool)."
+    - "Focuses on the spirit of the rules to ensure fairness and fun."
+  player_interaction_style:
+    - Encourages players to describe their actions and intent in detail.
+    - Actively involves all players in the narrative.
+    - Promotes in-character dialogue and decision-making.
+    - Values player input and feedback on the story's direction.
+  encounter_preferences:
+    - Favors social encounters, intricate puzzles, moral dilemmas, and exploration.
+    - Uses combat when it is narratively significant, climactic, or drives character development.
+    - Avoids random or meaningless combat encounters.
+    - Enjoys building tension and suspense through non-combat challenges.
+  pacing_style:
+    - Varies pacing to match the story's needs – from slow-burn intrigue to moments of high drama.
+    - Allows players time for roleplaying and character moments.
+    - Ensures the overarching plot continues to move forward.
+  story_focus:
+    - Character development and personal journeys.
+    - Intrigue, mystery, and discovery.
+    - Emotional depth and thematic exploration.
+    - World-building that feels alive and responsive to players.
+  combat_philosophy:
+    - "Combat should be a story beat, not just a resource drain."
+    - "Encounters should have clear stakes and potential consequences beyond victory or defeat."
+    - "Prefers fewer, more memorable and challenging combats over many simple ones."
+    - "Open to non-lethal resolutions or creative ways to overcome opponents."
+  guidelines_for_players:
+    - "Embrace your character and their motivations."
+    - "Be proactive and make choices that drive the story."
+    - "Collaborate with other players and build on their ideas."
+    - "Communicate your goals and what you find engaging."
+    - "Be prepared for a game where your decisions truly matter."
+rules_guidelines:
+  - "Rule of Cool often applies."
+  - "Player agency is paramount."
+  - "Combat should serve the story, not dominate it."
+encounter_style:
+  - Prefers social encounters and puzzles
+  - Uses combat sparingly for dramatic effect 

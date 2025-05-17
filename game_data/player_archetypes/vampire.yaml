@@ -1,0 +1,39 @@
+card_type: PLAYER_ARCHETYPE
+name: Vampire
+description: Powerful blood-drinking undead night predators. They possess supernatural speed, strength, regeneration, and the ability to charm the living and shape-change into mist. Their existence is a curse, marked by an insatiable blood-hunger that can drive them to bestial fury.
+tags:
+  - undead
+  - predator
+  - nocturnal
+  - shapeshifter
+  - charmer
+  - cursed
+  - blood_drinker
+version: "1.0.0"
+metadata:
+  core_identity: night_predator
+  abilities:
+    - supernatural_strength
+    - supernatural_speed
+    - regeneration
+    - mist_form
+    - charm_person
+    - vampiric_bite # (transmits curse)
+  weaknesses:
+    - sunlight_vulnerability
+    - fire_vulnerability
+    - decapitation_lethality # (or stake_through_heart depending on lore)
+    - blood_hunger # (can lead to loss of control / bestial fury)
+  gameplay_focus:
+    - stealth_and_ambush
+    - social_manipulation
+    - potent_but_risky_combat
+  curse_mechanics:
+    - transmission_via_bite
+    - progressive_degeneration_without_blood
+    - potential_loss_of_humanity
+  visual_cues:
+    - pale_complexion
+    - sharp_canines
+    - unnaturally_intense_gaze
+    - aversion_to_holy_symbols # (optional, lore-dependent)

@@ -1,0 +1,48 @@
+card_type: LOCATION
+name: Mulmaster (City of Danger)
+description: A corrupt, crime-ridden city-state on the windswept shores of the Moonsea, wedged between two peaks. Mulmaster is a cut-throat place where wealth and power are ruthlessly pursued under the harsh rule of the Council of Blades, High Blade Jaseen Drakehorn, and the dictates of the Church of Bane. Poverty is rampant in the lower districts, while the elite revel in the Imperial District.
+tags:
+  - city_state
+  - corrupt
+  - crime_ridden
+  - oppressive_regime
+  - moonsea_region
+  - urban
+  - dangerous
+  - bane_worship
+version: "1.0.0"
+metadata:
+  title: The City of Danger
+  geography: Located on the windswept shores of the Moonsea, set in a declivity between two mountain peaks.
+  government_type: Autocracy / Oligarchy
+  ruling_body:
+    - name: High Blade Jaseen Drakehorn
+    - name: Council of Blades
+  dominant_religion_ideology: Church of Bane (dictates law and order)
+  socioeconomic_divide:
+    - imperial_district: Wealthy elite, destination of uphill-flowing money (taxes, bribes).
+    - docks_quarter: Impoverished, receives city waste via ancient, monster-infested, gang-ridden sewers prone to flooding.
+  key_factions_present: # Can be linked to FACTION cards by name/ID later
+    - Church of Bane (dominant influence)
+    - Brotherhood of Cloaks (enforces magic monopoly, spies)
+    - Various criminal gangs (in sewers and Docks Quarter)
+    - Zhentarim (presence in Zhent Ghettos, likely watched)
+    - Thayans (presence in Thayan Embassy, likely watched)
+  notable_landmarks_districts:
+    - imperial_district: Seat of power and wealth.
+    - docks_quarter: The impoverished lower city.
+    - high_blade_s_tower_of_the_wyvern: Official residence and seat of power.
+      - palace_of_revels: Rumored debauched location beneath the tower.
+    - black_lord_s_altar: Massive temple dedicated to Bane.
+    - zhent_ghettos: Area for Zhentarim presence.
+    - thayan_embassy: Official Thayan diplomatic (and likely espionage) presence.
+    - ancient_sewers: Infested with monsters and gangs, prone to flooding.
+  laws_and_order: Harsh dictates enforced by the Church of Bane and likely the city guard under the Blades. Monopoly on magic enforced by the Brotherhood of Cloaks.
+  general_atmosphere: Oppressive, dangerous, cut-throat competition, stark inequality, pervasive corruption. "Moving uphill" (escaping poverty) is a ruthless endeavor.
+  potential_plot_hooks:
+    - Investigate corruption within the Council of Blades.
+    - Aid a rebellion against the High Blade or the Church of Bane.
+    - Navigate the dangerous politics between the Blades, Zhentarim, and Thayans.
+    - Explore the monster-infested sewers for a hidden objective or escape route.
+    - Uncover the secrets of the Palace of Revels.
+    - Challenge the Brotherhood of Cloaks' magic monopoly.

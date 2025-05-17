@@ -1,0 +1,15 @@
+[project]
+name = "agora"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-anthropic>=0.3.13",
+    "langchain-ollama>=0.3.3",
+    "langchain-tavily>=0.1.6",
+    "langchain[openai]>=0.3.25",
+    "langgraph>=0.4.3",
+    "pydantic>=2.11.4",
+    "returns>=0.25.0",
+]
