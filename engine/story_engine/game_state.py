@@ -2,7 +2,8 @@ from pydantic import BaseModel, Field, NonNegativeInt
 from typing import Dict, Tuple, Any, Optional
 
 # Assuming PlayerState will eventually be imported properly
-from ..player_module.player_models import PlayerState, PlayerId
+from ..player.player_models import PlayerState, PlayerId
+from core.event_system.event_models import GameEvent
 
 
 class GameState(BaseModel):
@@ -17,7 +18,7 @@ class GameState(BaseModel):
     # Keyed by str(PlayerId.id) - similar to player_states keying
     current_acting_player_id: Optional[PlayerId] = None
 
-    event_log: Tuple[str, ...] = Field(default_factory=tuple)
+    event_log: Tuple[GameEvent, ...] = Field(default_factory=tuple)
 
     class Config:
         frozen = True
