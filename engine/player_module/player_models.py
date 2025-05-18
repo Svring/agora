@@ -62,6 +62,11 @@ class UseItemAction(PlayerAction):
     target_id: Optional[str] = None
 
 
+class GeneralAction(PlayerAction):
+    action_type: str = "GENERAL"
+    description: str
+
+
 class PlayerModuleError(BaseModel):
     message: str
 

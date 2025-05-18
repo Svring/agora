@@ -248,14 +248,19 @@ def _process_parsed_documents_pure(
     for doc_idx, raw_data_doc in enumerate(raw_yaml_documents):
         match raw_data_doc:
             case list() as card_list:
-                for item_idx, card_data_item in enumerate(card_list):
-                    current_state, current_report = _process_single_card_item_pure(
-                        card_data_item,
+                # Process all items in the card list using list comprehension
+                # Each iteration returns updated state and report which becomes input for next item
+                current_state, current_report = reduce(
+                    lambda acc, item: _process_single_card_item_pure(
+                        item[1],  # card_data_item
                         file_path,
-                        current_state,
-                        current_report,
-                        item_idx=item_idx,
-                    )
+                        acc[0],  # current_state
+                        acc[1],  # current_report
+                        item_idx=item[0],  # item_idx
+                    ),
+                    enumerate(card_list),
+                    (current_state, current_report),
+                )
             case dict() as card_dict:
                 current_state, current_report = _process_single_card_item_pure(
                     card_dict, file_path, current_state, current_report

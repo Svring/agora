@@ -1,30 +1,21 @@
-# Represents the current state of the game world
-# from typing import Dict, Any, List
-# # from ...core.card_system.base_card import BaseCard # If game state holds card instances
-
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, NonNegativeInt
 from typing import Dict, Tuple, Any, Optional
 
-# from pathlib import Path # Not used in current snippet
-# from ..player_module.player_models import PlayerId, PlayerState # Correct import path
+# Assuming PlayerState will eventually be imported properly
+from ..player_module.player_models import PlayerState, PlayerId
 
 
 class GameState(BaseModel):
     game_id: str
     story_background_card_id: str
-    card_system_digest: str
 
     current_location_id: Optional[str] = None
-    active_npcs_in_location: Tuple[str, ...] = Field(default_factory=tuple)
-    world_facts: Dict[str, Any] = Field(default_factory=dict)
 
-    # Using Any for PlayerState for now, to be replaced with actual import
-    # Keyed by str(PlayerId.id)
-    player_states: Dict[str, Any] = Field(default_factory=dict)
+    player_states: Dict[PlayerId, PlayerState] = Field(default_factory=dict)
 
-    turn_number: int = 0
-    # Keyed by str(PlayerId.id)
-    current_acting_player_id: Optional[str] = None
+    turn_number: NonNegativeInt = 0
+    # Keyed by str(PlayerId.id) - similar to player_states keying
+    current_acting_player_id: Optional[PlayerId] = None
 
     event_log: Tuple[str, ...] = Field(default_factory=tuple)
 
@@ -32,6 +23,9 @@ class GameState(BaseModel):
         frozen = True
         arbitrary_types_allowed = True
 
+
+# Comments related to removed fields or specific PlayerId/PlayerState usage can be cleaned up further
+# if those types are finalized.
 
 # Example of how PlayerId might be used as a key (conceptual)
 # def get_player_state(game_state: GameState, player_id: PlayerId) -> Optional[PlayerState]:
